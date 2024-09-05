@@ -17,7 +17,7 @@ export const navLinks = [
     href: "/dashboard",
     icon: Home,
   },
-  { name: "Sites", href: "/dashboard/sites", icon: Globe },
+  { name: "Stories", href: "/dashboard/stories", icon: Globe },
   { name: "Pricing", href: "/dashboard/pricing", icon: DollarSign },
 ];
 
@@ -66,6 +66,9 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
             </DropdownMenu>
           </div>
         </header>
+        <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
+          {children}
+        </main>
       </div>
     </section>
   );
