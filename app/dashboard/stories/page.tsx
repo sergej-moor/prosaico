@@ -7,7 +7,7 @@ export default function StoriesRoute() {
     <>
       <div className="flex w-full justify-end">
         <Button asChild>
-          <Link href={"/dashboard/sites/new"}>
+          <Link href={"/dashboard/stories/new"}>
             <PlusCircleIcon className="mr-2 size-4"></PlusCircleIcon>Create
             Story
           </Link>
@@ -25,7 +25,7 @@ export default function StoriesRoute() {
           Your posted Stories will show up here.
         </p>
         <Button asChild>
-          <Link href={"/dashboard/sites/new"}>
+          <Link href={"/dashboard/stories/new"}>
             <PlusCircleIcon className="mr-2 size-4"></PlusCircleIcon>Create
             Story
           </Link>
